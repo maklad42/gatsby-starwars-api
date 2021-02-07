@@ -5,3 +5,17 @@ const Swapi = () => (
   </div>
 )
 export default Swapi
+
+export const query = graphql`
+  query allNodesSwapi {
+    allNodesSwapi {
+      edges {
+         node {
+           results{
+             name
+           }
+         }
+      }
+    }
+  }
+`

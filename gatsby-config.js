@@ -30,9 +30,9 @@ module.exports = {
     {
       resolve: `gatsby-source-graphql`,
       options: {
-        typeName: `SWAPI`,
-        fieldName: "swapi",
-        url: `https://swapi.dev/api/`,
+        fieldName: `swapi`,
+        baseUrl: `https://swapi.dev`,
+        apiBase: "api",
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
