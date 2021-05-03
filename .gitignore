@@ -61,7 +61,7 @@ public
 # Mac files
 .DS_Store
 
-# Yarn
+# Yarn stuff
 yarn-error.log
 .pnp/
 .pnp.js
